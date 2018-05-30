@@ -1,7 +1,5 @@
-FROM python:2.7-slim
-WORKDIR /app
-ADD . /app
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
-EXPOSE 80
-ENV NAME World
-CMD ['python', 'app.py']
+FROM openjdk:8-jdk-alpine
+#VOLUME /tmp
+#ARG JAR_FILE
+#COPY $JAR_FILE app.jar
+#ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "app.jar"]
