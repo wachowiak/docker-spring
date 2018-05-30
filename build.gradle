@@ -31,7 +31,7 @@ task debugLog {
 }
 
 docker{
-    dependsOn build, debugLog
+    dependsOn debugLog, build
     name "${project.group}/${bootJar.baseName}"
     files bootJar.archivePath
     buildArgs(['JAR_FILE': "${bootJar.archiveName}"])
