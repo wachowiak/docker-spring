@@ -1,8 +1,7 @@
 version: "3"
 services:
   web:
-    # replace username/repo:tag with your name and image details
-    image: wachowiak/tutorial:tutorial
+    image: org.wachowiak/math-service-docker
     deploy:
       replicas: 5
       resources:
