@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+          integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+          crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+  <script src="math.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <input type="text" class="form-control" readonly="readonly" id="display" placeholder="0">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="btn col-md-1">
+      <div class="btn btn-info btn-block fnc" math="add">+</div>
+    </div>
+    <div class="btn col-md-1">
+      <div class="btn btn-info btn-block fnc" math="sub">-</div>
+    </div>
+    <div class="btn col-md-1">
+      <div class="btn btn-info btn-block fnc" math="mul">*</div>
+    </div>
+    <div class="btn col-md-1">
+      <div class="btn btn-info btn-block fnc" math="div">/</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="btn col-md-1 digit">1</div>
+    <div class="btn col-md-1 digit">2</div>
+    <div class="btn col-md-1 digit">3</div>
+    <div class="btn col-md-1 digit">4</div>
+  </div>
+  <div class="row">
+    <div class="btn col-md-1 digit">5</div>
+    <div class="btn col-md-1 digit">6</div>
+    <div class="btn col-md-1 digit">7</div>
+    <div class="btn col-md-1 digit">8</div>
+  </div>
+  <div class="row">
+    <div class="btn col-md-1 digit">9</div>
+    <div class="btn col-md-1 digit">0</div>
+    <div class="btn col-md-1">
+      <div class="btn btn-info btn-block fnc" math="clr">C</div>
+    </div>
+    <div class="btn col-md-1">
+      <div class="btn btn-info btn-block fnc" math="eql">=</div>
+    </div>
+  </div>
+  </div>
+  </body>
+</html>
