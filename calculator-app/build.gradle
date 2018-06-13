@@ -42,4 +42,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-webflux')
     testCompile('io.projectreactor:reactor-test')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('junit.junit:4.12')
+    testCompile('org.springframework.boot:spring-boot-test')
 }

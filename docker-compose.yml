@@ -15,7 +15,7 @@ services:
     networks:
       - webnet
   web-client:
-    image: org.wachowiak/math-service-client-docker
+    image: org.wachowiak/math-client-docker
     deploy:
       replicas: 5
       resources:
