@@ -1,4 +1,4 @@
-package org.wachowiak.docker;
+package org.wachowiak.docker.exception;
 
 public class BadRequestException extends RuntimeException{
 
